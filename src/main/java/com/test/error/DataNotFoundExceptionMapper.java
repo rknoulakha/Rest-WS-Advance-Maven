@@ -10,7 +10,7 @@ import com.test.beans.ErrorMessage;
 @Provider
 public class DataNotFoundExceptionMapper implements ExceptionMapper<DataNotFoundException> {
 
-	@Override
+	
 	public Response toResponse(DataNotFoundException ex) {
 		// TODO Auto-generated method stub
 		ErrorMessage errorMessage = new ErrorMessage("Fail", ex.getMessage(), 12);

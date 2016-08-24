@@ -40,7 +40,7 @@ public class UserBusiness {
 
 	// return all the users for given year
 	public List<User> getAllUserForYear(int year) {
-		List<User> userForYear = new ArrayList<>();
+		List<User> userForYear = new ArrayList<User>();
 		Calendar cal = Calendar.getInstance();
 		for (User users : user.values()) {
 			cal.setTime(users.getDoj());
