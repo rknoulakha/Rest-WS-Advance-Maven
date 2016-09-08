@@ -6,6 +6,14 @@
 
 Note : 
 
+1. Create Clone of the project at your local.
+2. run the command mvn eclipse:clean to remove m2eclipse project data.
+3. Eclipse -> File -> Import -> Maven -> Existing Maven Project -> Path of your POM.xml.
+4. Right Click on the project -> Maven -> Update Project.
+5. Run the project.
+
+*********************
+
 1. Port can change according to your configuration of server.
 2. You can't delete/update first and second record because they are initialized by constructor. For update delete you need 
    to insert new record and perform the operation on them.
