@@ -13,7 +13,7 @@ public class DataNotFoundExceptionMapper implements ExceptionMapper<DataNotFound
 	
 	public Response toResponse(DataNotFoundException ex) {
 		// TODO Auto-generated method stub
-		ErrorMessage errorMessage = new ErrorMessage("Fail", ex.getMessage(), -10)
+		ErrorMessage errorMessage = new ErrorMessage("Fail", ex.getMessage(), -10);
 		return Response.status(Status.NOT_FOUND).entity(errorMessage).build();
 	}
 
