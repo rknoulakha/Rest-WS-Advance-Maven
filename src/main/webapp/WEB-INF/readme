@@ -7,7 +7,7 @@
 Note : 
 
 1. Create Clone of the project at your local.
-2. run the command mvn eclipse:clean to remove m2eclipse project data.
+2. run the command mvn eclipse:clean to remove m2eclipse project data. (No need to do this in you can skip this step)
 3. Eclipse -> File -> Import -> Maven -> Existing Maven Project -> Path of your POM.xml.
 4. Right Click on the project -> Maven -> Update Project.
 5. Run the project.
